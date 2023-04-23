@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: JolivieriClever/action@v1.1
+        uses: JolivieriClever/02-javascriptAction@v1.1
         with:
           who-to-greet: 'Chancho en piedra'
       # Use the output from the `hello` step
